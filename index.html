@@ -1,59 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evaluación de Seguridad Externa</title>
-    <link rel="stylesheet" 
-      href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.7/dist/cosmo/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./static/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./static/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./static/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Evaluación de Seguridad Externa con IA</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.7/dist/pulse/bootstrap.min.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./static/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./static/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./static/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    .full-split {
+      height: 100vh;
+    }
+    .left-pane {
+      background-color: #212529;
+      color: #f8f9fa;
+    }
+    .right-pane {
+      background-color: #ffffff;
+    }
+  </style>
 </head>
 <body>
 
-    <h1 class="text-center mt-5">Descubre tu empresa desde la perspectiva de un hacker</h1>
-    <div class="container mt-5">
-        
-        <div class="row">
-            <div class="col-md-6">
-                <p>Simulamos cómo un atacante puede ver tu empresa desde fuera a partir de tu dominio. Descubre servicios expuestos, tecnologías inseguras y riesgos clave.</p>
+  <div class="container-fluid full-split d-flex flex-column flex-md-row p-0">
+    
+    <!-- Left: Content -->
+    <div class="col-md-6 d-flex align-items-center justify-content-center left-pane p-5">
+      <div class="w-100" style="max-width: 600px;">
+        <h2 class="mb-4">Evaluación gratuita de seguridad externa con IA</h2>
+        <p>Soy un profesional de ciberseguridad desarrollando una plataforma impulsada por inteligencia artificial para empresas en América Latina. Para entender mejor sus necesidades, ofrezco una evaluación gratuita a cambio de una breve entrevista de investigación.</p>
 
-        
-                <h2>¿Cómo funciona?</h2>
-                <ol>
-                  <li>Nos proporsionas tu dominio y permiso para escanearlo.</li>
-                  <li>Lo escaneamos de manera segura con software abierto.</li>
-                  <li>Analizamos los resultados con <a href="https://azure.microsoft.com/en-us/products/ai-foundry" target="_blank" rel="noopener noreferrer" class="text-primary">Azure AI Foundry</a>.</li>
-                  <li>Entregamos un reporte ejecutivo y uno técnico.</li>
-                </ol>
-        
-                <p>El riesgo es minimo porque nuestras herramientas estan configuradas para no ser invacivas y no afectar la disponibilidad de tus sistemas.</p>
+        <h5 class="mt-4">¿Qué recibirás?</h5>
+        <p>Un informe que muestra cómo un atacante externo podría ver tu empresa, con menor riesgo que una prueba de penetración tradicional.</p>
 
-                <h2>¿Cómo obtenerlo?</h2>
-                <ol>
-                  <li>Únete a la lista de espera.</li>
-                  <li>Agenda una breve entrevista.</li>
-                  <li>Recibes tu evaluación en un link de descarga seguro.</li>
-                </ol>
-            </div>
-            <div class="col-md-6">
-                <h2 class="text-center mb-2">Únete a la lista de espera</h2>
-                <div id="getWaitlistContainer" data-waitlist_id="29762" data-widget_type="WIDGET_1"></div>
-                <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
-                <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
-            </div>
-        </div>
+        <h5 class="mt-4">¿Cuál es el proceso?</h5>
+        <ol>
+          <li>Te unes a la lista de espera.</li>
+          <li>Serás redirigido a agendar una entrevista de 15 minutos.</li>
+          <li>Después de la entrevista, te explicaré el proceso técnico.</li>
+          <li>Solicitaré tu aprobación legal para realizar el análisis.</li>
+          <li>Realizo la evaluación utilizando herramientas abiertas y seguras.</li>
+          <li>Recibes tu informe en un enlace de descarga privado.</li>
+        </ol>
+
+        <p>Las herramientas están configuradas para ser no invasivas, sin afectar la disponibilidad de tus sistemas. Usamos análisis con ayuda de <a href="https://azure.microsoft.com/en-us/products/ai-foundry" class="text-info" target="_blank">Azure AI Foundry</a> para generar recomendaciones claras.</p>
+      </div>
     </div>
 
-    <footer class="text-center mt-5 mb-3" style="font-size: 0.9rem;">
-        <p>Creado por <a href="https://www.linkedin.com/in/jorgeecsilva/" target="_blank" rel="noopener noreferrer" class="text-primary">Jorge Carrillo</a> — <a href="https://www.linkedin.com/in/jorgeecsilva/" target="_blank" rel="noopener noreferrer" class="text-primary">Acerca de mí / Contacto</a></p>
-    </footer>
+    <!-- Right: Waitlist -->
+    <!-- Right: Waitlist -->
+    <div class="col-md-6 d-flex align-items-center justify-content-center right-pane p-5">
+      <div class="w-100" style="max-width: 500px;">
+        <h4 class="text-center mb-4">Únete a la lista de espera</h4>
+        <div id="getWaitlistContainer" data-waitlist_id="29762" data-widget_type="WIDGET_1"></div>
+        <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
+        <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://gc-storage.nyc3.digitaloceanspaces.com/gc-waitlist.js"></script>
+        <div class="text-center mt-4">
+          <p class="mb-1">¿Tienes preguntas?</p>
+          <a href="https://www.linkedin.com/in/jorgeecsilva/" target="_blank" class="btn btn-outline-primary">
+            Contáctame por LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://gc-storage.nyc3.digitaloceanspaces.com/gc-waitlist.js"></script>
 </body>
 </html>
